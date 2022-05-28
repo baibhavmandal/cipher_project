@@ -10,6 +10,10 @@ In cryptography, a cipher (or cypher) is an algorithm for performing encryption 
 
 | CIPHER  | STATUS |
 | ------------- | ------------- |
-| Ceaser Cipher  | Completed  |
 | Shift Cipher  | Completed  |
+| Rotation Cipher  | Completed  |
 | XOR Cipher  | Completed  |
+| Subsitution Cipher  | Completed  |
+| Transposition Cipher  | Completed  |
+| RSA Cipher  | Completed  |
+| Diffie-Hellman | Completed |
