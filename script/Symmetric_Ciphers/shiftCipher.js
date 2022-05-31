@@ -17,9 +17,9 @@ function encryptCipher(input, k) {
   cipherText[0].innerHTML = "<h3>" + result + "</h3>";
 }
 
-// dcrypt code
+// decrypt code
 
-function dcryptCipher(input, k) {
+function decryptCipher(input, k) {
   var result = "";
   for (let i = 0; i < input.length; i++) {
     let cipherValue1 = input.charCodeAt(i);
@@ -36,5 +36,5 @@ submit.addEventListener("click", (e) => {
   var input = plainText.value;
   var k = Number(key.value);
   encryptCipher(input, k);
-  dcryptCipher(input, k);
+  decryptCipher(input, k);
 });
